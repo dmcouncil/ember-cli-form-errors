@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-form-errors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrap form elements in this component to display API errors.",
   "directories": {
     "doc": "doc",
