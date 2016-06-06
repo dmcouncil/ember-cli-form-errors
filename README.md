@@ -1,6 +1,24 @@
 # Ember-cli-form-errors
 
-This README outlines the details of collaborating on this Ember addon.
+A simple ember-cli addon to support displaying API errors inside an Ember.js form.
+
+## Installation and use
+
+To use the component, just wrap your existing form component with this component:
+
+    <div class='form-group'>
+      <label for='user_last_name'>Last name</label>
+      {{input value=user.lastName class='form-control' id='user_last_name'}}
+    </div>
+
+becomes
+
+    {{#form-field object=user for='lastName'}}
+      <label for='user_last_name'>Last name</label>
+      {{input value=user.lastName class='form-control' id='user_last_name'}}
+    {{/form-field}}
+
+## Contributing
 
 ## Installation
 

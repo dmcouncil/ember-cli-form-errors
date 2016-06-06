@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-form-errors",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Wrap form elements in this component to display API errors.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,7 +40,9 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "form-errors",
+    "api-errors"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
