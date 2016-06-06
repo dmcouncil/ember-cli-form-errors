@@ -25,7 +25,7 @@ export default Ember.Component.extend({
     if (!this.get('object.errors')) {
       return this.get('customError');
     }
-    return this.get('object.errors').errorsFor(this.get('for')).mapBy('message').join(', ');
+    return Ember.A(this.get('object.errors').errorsFor(this.get('for'))).mapBy('message').join(', ');
   })
 
 });

@@ -1,9 +1,14 @@
 import Ember from 'ember';
+import startApp from '../../helpers/start-app';
 import { test, moduleForComponent } from 'ember-qunit';
 
-moduleForComponent('form-field', 'Component - FormField (regular)', {
+var App;
+
+moduleForComponent('form-field', 'FormFieldComponent', {
   unit: true,
-  setup: function() {
+
+  beforeEach: function () {
+    App = startApp();
     this.component = this.subject({
       for: 'onlyYou',
       object: Ember.Object.create({
@@ -26,6 +31,10 @@ moduleForComponent('form-field', 'Component - FormField (regular)', {
         })
       })
     });
+  },
+
+  afterEach: function () {
+    Ember.run(App, 'destroy');
   }
 });
 
