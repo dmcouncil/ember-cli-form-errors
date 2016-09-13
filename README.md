@@ -1,6 +1,6 @@
 # Ember-cli-form-errors
 
-[![Build Status](https://travis-ci.org/dmcouncil/ember-cli-form-errors.svg?branch=master)](https://travis-ci.org/dmcouncil/ember-cli-form-errors)
+[![Build Status](https://travis-ci.org/dmcouncil/ember-cli-form-errors.svg?branch=master)](https://travis-ci.org/dmcouncil/ember-cli-form-errors) [![Ember Observer Score](https://emberobserver.com/badges/ember-cli-form-errors.svg)](https://emberobserver.com/addons/ember-cli-form-errors)
 
 A simple ember-cli addon to support displaying API errors inside an Ember.js form.
 
