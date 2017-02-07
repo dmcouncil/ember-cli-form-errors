@@ -44,3 +44,7 @@ becomes
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## About
+
+ember-cli-form-errors was developed at [District Management Group](https://dmgroupK12.com).
