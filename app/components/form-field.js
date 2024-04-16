@@ -1,3 +1,1 @@
-import FormField from 'ember-cli-form-errors/components/form-field';
-
-export default FormField;
+export { default } from 'ember-cli-form-errors/components/form-field';

@@ -1,10 +1,23 @@
-# Ember-cli-form-errors
-
-[![Build Status](https://travis-ci.org/dmcouncil/ember-cli-form-errors.svg?branch=master)](https://travis-ci.org/dmcouncil/ember-cli-form-errors) [![Ember Observer Score](https://emberobserver.com/badges/ember-cli-form-errors.svg)](https://emberobserver.com/addons/ember-cli-form-errors)
+# ember-cli-form-errors
 
 A simple ember-cli addon to support displaying API errors inside an Ember.js form.
 
-## Installation and use
+
+## Compatibility
+
+* Ember.js v4.8 or above
+* Ember CLI v4.8 or above
+* Node.js v18 or above
+
+
+## Installation
+
+```
+ember install ember-cli-form-errors
+```
+
+
+## Usage
 
 To use the component, just wrap your existing form component with this component:
 
@@ -20,31 +33,12 @@ becomes
       {{input value=user.lastName class='form-control' id='user_last_name'}}
     {{/form-field}}
 
+
 ## Contributing
 
-## Installation
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
 
-## Running
+## License
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
-
-## About
-
-ember-cli-form-errors was developed at [District Management Group](https://dmgroupK12.com).
+This project is licensed under the [MIT License](LICENSE.md).
